@@ -2,7 +2,7 @@
 Tuple - it is immutable collection
 """
 
-example_tuple = 1,
+example_tuple = (1, 2)
 print(example_tuple)
 print(type(example_tuple))  # <-- type is a function (class) that returns a class\type of object
 

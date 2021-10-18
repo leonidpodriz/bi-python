@@ -1,11 +1,12 @@
 example_dict = {
     'key 1': {
-        'key 2': 'value 2',
+        'key 2': 'value super',
     },
     'key 2': 'value 2',
 }
 
-print(example_dict['key 1'])
+# dict_to_print['key 1'] ==> {'key 2': 'value super',}
+print(example_dict['key 1']['key 2'])
 
 print('key 2' in example_dict)
 print('value 2' in example_dict)

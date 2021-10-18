@@ -8,7 +8,7 @@ print(colors)  # <-- green saved just once
 
 # Check is element in set
 print('red' in colors)
-print('white' in colors)
+print('white' not in colors)
 
 # Add new elements
 colors.add('red')
